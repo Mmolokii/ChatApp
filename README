@@ -1,0 +1,11 @@
+## Order of Operation
+### System Process for creating a new User
+1. User selects Create Account
+2. They are prompted to enter their; name, surname, username and password. 
+3. The system will validate the username and password. 
+4. If the username or password does not pass the test, they will be prompted to repeat the process. 
+5. Once the user has entered a valid username and password, their account will be created.  
+### System Process for login
+1. The user is prompted to enter their login credentials. 
+2. If the user details do not exist, the user will be prompted to enter their details again. 
+3. Once the user has entered the credentials for an existing account. They will be taken to ho
