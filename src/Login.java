@@ -43,12 +43,19 @@ public class Login {
     }
 
     public boolean checkCellPhoneNumber(String phoneNumber){
-        String countryCode = "+27";
-        if(!phoneNumber.contains(countryCode)){
+        // Check for country code
+        if(!phoneNumber.startsWith("+27")){
             return false;
         }
 
-        if(phoneNumber.length() > 12){
+        // Check the total length
+        if(phoneNumber.length() != 12){
+            return false;
+        }
+
+        // Check for digits
+        String digitsOnly = phoneNumber.substring(3);
+        if(!digitsOnly.matches("\\d{9}")){ // Ensure 9 digits
             return false;
         }
         return true;
