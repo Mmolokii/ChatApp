@@ -1,0 +1,60 @@
+## 📌 Introduction
+
+This project is part of an assignment for the PROG5121 module, focusing on building a chat application using Java. The application follows Object-Oriented Programming (OOP) principles and will be developed incrementally through different phases.
+
+## 📌 Objectives
+
+The main objectives of this assignment are:
+1. Apply OOP principles by creating classes and methods.
+2. Implement user authentication with registration and login functionality.
+3. Validate input fields (username, password, phone number). 
+4. Store and retrieve user data efficiently.
+5. Implement unit testing using JUnit.
+6. Utilize GitHub for version control and GitHub Actions for automated testing.
+
+## 📌 Assignment Breakdown
+
+The assignment consists of multiple parts, each focusing on a specific feature of the application:
+
+### 1️⃣ Part 1: User Registration and Login (Current Focus)
+
+1. Users can register an account with a username, name, surname, password, and phone number.
+
+2. The system validates user input to ensure data integrity.
+
+3. Users can log in using their credentials.
+
+4. The application provides appropriate feedback on login success or failure.
+
+5. Data is currently stored in an array (future improvements may include file storage or databases).
+
+### 2️⃣ Part 2: Messaging System (Future Implementation)
+
+1. Users will be able to send messages.
+
+2. Messages will be stored and displayed when requested.
+
+3. The system will provide an option to view sent messages.
+
+### 3️⃣ Part 3: Data Storage & Reports (Future Implementation)
+
+- Data will be stored in files or a database.
+- The system will generate reports on user activity.
+
+## 📌 Technologies Used
+1. Java (Core programming language)
+2. JUnit (Unit testing framework)
+
+3. GitHub (Version control)
+4. GitHub Actions (Automated testing)
+
+5. IDE: NetBeans and IntelliJ IDEA 
+
+## 📌 Expected Outcomes
+
+By the end of this assignment, the application will:
+1.  Support user authentication (register, login, validation).
+2. Allow users to send and view messages.
+3. Implement unit testing to ensure software quality.
+4. Store and manage user data effectively.
+5. Follow best coding practices (OOP, clean code, proper validation).
